@@ -1,9 +1,10 @@
 import React from 'react';
 
-const Card = () => {
+const Card = ({movie}) => {
     return (
         <div className="card">
-            <h2>Test</h2>
+            
+            <h2>{movie.title}</h2>
         </div>
     );
 };

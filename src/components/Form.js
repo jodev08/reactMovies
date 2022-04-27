@@ -39,8 +39,9 @@ const Form = () => {
       </div>
 
       <div className="result">
-        {moviesData.map((movie) => (
-          <Card></Card>
+        {moviesData.slice(0,12)
+        .map((movie) => (
+          <Card key={movie.id} movie={movie} ></Card>
         ))}
       </div>
     </div>
