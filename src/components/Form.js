@@ -4,6 +4,7 @@ import Card from "./Card";
 
 const Form = () => {
   const [moviesData, setMoviesData] = useState([]);
+  const [search, setSearch] = useState("code");
 
   useEffect(() => {
     axios

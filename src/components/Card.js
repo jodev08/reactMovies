@@ -42,7 +42,7 @@ const Card = ({ movie }) => {
         ""
       )}
 
-      {movie.overview ? <h3>synopsis : {movie.overview}</h3> : ""}
+      {movie.overview ? <p>synopsis : {movie.overview}</p> : ""}
 
       <div className="btn">Ajouter aux coups de coeur</div>
     </div>
